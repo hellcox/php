@@ -26,6 +26,7 @@ class Index
 
     public function db()
     {
+        echo '<pre>';
         $db = \lib\Db::getInstance();
         $sql  = "select * from user";
         $rows = $db->query($sql)->all();

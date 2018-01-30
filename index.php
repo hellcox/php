@@ -6,5 +6,6 @@
  */
 
 echo '<pre>';
+print_r($_SERVER);
 include 'config.php';
 require __DIR__ . '/system/start.php';
